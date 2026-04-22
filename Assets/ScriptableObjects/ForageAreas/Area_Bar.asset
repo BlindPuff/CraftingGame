@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e829c63db504d76bd6c4ae6ed27f3c8, type: 3}
-  m_Name: Area_Lake
+  m_Name: Area_Bar
   m_EditorClassIdentifier: 
-  id: searchSupplyRoom
-  displayName: Supply Room
+  id: searchBar
+  displayName: Bar
   travelDays: 0.1
-  workDays: 1
+  workDays: 0.2
   roundTrip: 1
   seasonYieldMul:
-  - 1
+  - 2
   - 1
   - 1
   - 1
   drops:
-  - item: {fileID: 11400000, guid: 3213f67e22796ff4e9f97a3a0b32ef5f, type: 2}
+  - item: {fileID: 11400000, guid: 41a2cd23ce62072408c222d1f4cdbc82, type: 2}
     min: 1
     max: 2
     dropChance: 0
@@ -31,7 +31,11 @@ MonoBehaviour:
     min: 1
     max: 2
     dropChance: 0
-  - item: {fileID: 11400000, guid: 98233fa7d0cf83a478dbf3820360eaab, type: 2}
+  - item: {fileID: 11400000, guid: 3213f67e22796ff4e9f97a3a0b32ef5f, type: 2}
+    min: 1
+    max: 2
+    dropChance: 0
+  - item: {fileID: 11400000, guid: 83dd38eeb2932894887331d8edb21942, type: 2}
     min: 1
     max: 2
     dropChance: 0

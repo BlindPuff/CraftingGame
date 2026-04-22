@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30344452f45122149be7ab00dbee6427, type: 3}
+  m_Name: Medal
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  Id: 12
+  DisplayName: Medal of the Captain
+  Icon: {fileID: -3486472137915601551, guid: 6dac99c30b756fb478c12526a7cf0288, type: 3}
+  MaxStack: 99
+  producer: {fileID: 0}
+  tier: 0
+  equippable: 1
+  equipmentBonuses:
+    travelSpeed: 0
+    craftingSpeed: 0
+    researchSpeed: 0
+    forageSpeed: 0
+    forageLuck: 0
+    tavernLuck: 0
+    researchLuck: 0
+  travelSpeedDescription: Travel speed
+  craftingSpeedDescription: Crafting speed
+  researchSpeedDescription: Research speed
+  forageSpeedDescription: Forage speed
+  forageLuckDescription: Forage luck
+  tavernLuckDescription: Tavern luck
+  researchLuckDescription: Research luck
+  equipmentBonusNote: Enter fractional bonuses (e.g., 0.15 = +15%, 1.0 = +100%).
+    Speed bonuses multiply duration denominators; luck bonuses multiply chances.
+  price: 0
+  description: The medal you got off the drunk captain. With this, you can go anywhere
+    on the ship!

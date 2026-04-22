@@ -7,7 +7,7 @@ public struct Ingredient
     [Min(1)] public int amount;
 }
 
-[CreateAssetMenu(menuName = "Crafting/Shaped Recipe (4x4)")]
+[CreateAssetMenu(menuName = "Crafting/Shaped Recipe (3x1)")]
 public class ShapedRecipe : ScriptableObject
 {
     [Header("Metadata")]

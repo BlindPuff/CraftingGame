@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CraftingGrid : MonoBehaviour
 {
-    public const int Width = 4;
-    public const int Height = 4;
+    public const int Width = 3;
+    public const int Height = 1;
 
     [SerializeField] private ItemStack[] cells = new ItemStack[Width * Height];
 
